@@ -1,0 +1,30 @@
+body{
+    
+    background-image: url("../images/v.jpg");
+    
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+html{
+    font-family: 'open sans';
+  }
+  h1{
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  @media screen and (max-width: 600px) {
+    .fancy-card {
+      width: 100%;
+      display: block;
+      margin-bottom: 70px;
+    }
+  }
+
+
+@media screen and (min-width: 0px) and (max-width: 990px) {
+    body { 
+        background-image: none;
+        background-color:whitesmoke; }
+}

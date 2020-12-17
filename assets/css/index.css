@@ -1,0 +1,14 @@
+body{
+    
+    background-image: url("../images/aq.jpg");
+    
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
